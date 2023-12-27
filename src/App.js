@@ -6,7 +6,7 @@ import RefreshIcon from "@mui/icons-material/Refresh";
 function App() {
   const advice = [
     "The outsider count has/has not been modified.",
-    "At least [Number] player's ability/abiltiies did not work correctly last night.",
+    "At least [Number] player's ability/abilities did not work correctly last night.",
     "A Chef would have gotten a [Number] last night.",
     "Exactly [Number] townsfolk targeted <an evil player>/<the demon> last night.",
     "At least [Number] player is affected by madness.",
