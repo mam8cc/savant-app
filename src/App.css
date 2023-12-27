@@ -26,6 +26,7 @@
 
 .App-link {
   color: #61dafb;
+  /* font-size: 0.5em; */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.definition {
+  color: #fcf5e5;
+  font-style: italic;
+}
+
+.advice {
+  font-size: 1.75em;
+}
+
+.join {
+  font-size: 0.5em;
+}
+
+.RefreshIcon {
+  padding-top: 20px;
+}
+
+.thanks {
+  font-size: 0.25em;
 }
