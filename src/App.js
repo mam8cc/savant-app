@@ -83,7 +83,7 @@ function App() {
             setOutput(getAdvice());
           }}
         >
-          {output}{" "}
+          {output} <br />
           <RefreshIcon
             className="RefreshIcon"
             onClick={() => setOutput(getAdvice())}
