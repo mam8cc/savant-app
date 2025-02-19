@@ -2,6 +2,7 @@ import logo from "./savant.png";
 import "./App.css";
 import React, { useState } from "react";
 import RefreshIcon from "@mui/icons-material/Refresh";
+import { SvgIcon } from '@mui/material';
 
 function App() {
   const advice = [
@@ -84,10 +85,12 @@ function App() {
           }}
         >
           {output} <br />
-          <RefreshIcon
-            className="RefreshIcon"
+          <span
+            className="refresh-icon"
             onClick={() => setOutput(getAdvice())}
-          />
+          >
+            ↻
+          </span>
         </p>
         <p class="join">
           Brought to you by the folks at{" "}
